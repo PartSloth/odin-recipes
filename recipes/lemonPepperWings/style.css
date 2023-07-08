@@ -1,0 +1,22 @@
+/* lemon_pepper_wings.html stylesheet */
+
+.center {
+    text-align: center;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    width: auto;
+    height: 620px;
+}
+
+.ingredients {
+    background-color: antiquewhite;
+}
+
+.steps {
+    background-color: cadetblue;
+}

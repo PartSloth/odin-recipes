@@ -1,0 +1,22 @@
+/* vegetarian_chili.html stylesheet */
+
+.center {
+    text-align: center;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    width: auto;
+    height: 650px
+}
+
+.ingredients {
+    background-color: antiquewhite;
+}
+
+.steps {
+    background-color: cadetblue;
+}
