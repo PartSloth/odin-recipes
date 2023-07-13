@@ -1,7 +1,44 @@
 /* homemade_spaghetti_sauce.html stylesheet */
 
+* {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+} 
+
+.recipe-card {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    background-color: white;
+}
+
+h1 {
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 500px;
+    height: 70px;
+    padding: 15px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(165, 226, 206, 0.548);
+}
+
+body {
+    background: linear-gradient(rgba(165, 226, 206, 0.548),rgba(83, 141, 133, 0.548));
+}
+
 .center {
     text-align: center;
+}
+
+.description {
+    width: 600px;
+    margin-top: -10px;
 }
 
 #image {
@@ -10,7 +47,24 @@
     margin-right: auto;
     border-radius: 25px;
     width: auto;
-    height: 650px
+    height: 650px;
+    border: 2px solid rgba(182, 182, 182, 0.664);
+}
+
+li {
+    padding: 5px;
+    margin: 0px;
+    margin-left: 15px;
+}
+
+em {
+    margin: 0px;
+    padding: 0px;
+}
+
+.label {
+    display: inline-block;
+    width: fit-content;
 }
 
 .ingredients {
@@ -20,3 +74,20 @@
 .steps {
     background-color: cadetblue;
 }
+
+hr {
+    border-top: 2px solid rgba(182, 182, 182, 0.664);
+    border-bottom: 2px solid rgb(182, 182, 182, 0.664);
+    border-left: none;
+    border-right: none;
+}
+
+.dot {
+    height: 1px;
+    width: 1px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+  }
